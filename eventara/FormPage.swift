@@ -32,7 +32,6 @@ struct FormPage: View {
                 VStack{
                     VStack(alignment: .trailing){
                         Text("اضف لقائمتك")
-                           
                             .font(.custom("Tajawal", size: 20))
                             .bold()
                             .padding(.bottom, 25)
