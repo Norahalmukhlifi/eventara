@@ -8,10 +8,98 @@
 import SwiftUI
 
 struct ListTask: View {
+    @State var txt = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+          
+            ZStack{
+                Color.back
+                    .ignoresSafeArea()
+                
+                VStack{
+                    HStack(spacing : 15){
+                        Image (systemName: "magnifyingglass")
+                           .foregroundColor(.gray)
+                        TextField("searsh",text: $txt)
+                    } .padding(.vertical,12)
+                       .padding(.horizontal)
+                        .background(Color.white)
+                       .clipShape(Capsule())
+                   
+                        .padding()
+                    
+                    VStack{
+                        NavigationLink {
+                            TodoList()
+                        } label: {
+                            ZStack{
+                                
+                                RoundedRectangle(cornerRadius: 25)
+                                    .fill( LinearGradient (
+                                        gradient: Gradient(colors: [Color.card, Color.pk]), startPoint: .leading, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
+                                
+                                VStack(alignment: .trailing){
+                                    Text("مشاركي التخطيط")
+                                        .font(.title2)
+                                        .bold()
+                                        .foregroundColor(.white)
+                                        .multilineTextAlignment(.trailing)
+                                        .frame(maxWidth: .infinity , alignment: .trailing)
+                                    Text("حفلة التخرج")
+                                        .font(.title3)
+                                        .foregroundColor(.white)
+                                        .multilineTextAlignment(.trailing)
+                                        .frame(maxWidth: .infinity , alignment: .trailing)
+                                    
+                                    
+                                    HStack{
+                                        
+                                        Text("6 sep 2023")
+                                            .foregroundColor(.white)
+                                        Image(systemName:"calendar.badge.clock" )
+                                        .foregroundColor(.white)}
+                                    Divider().frame(height: 4)
+                                    
+                                    HStack{
+                                        Image(systemName: "chevron.left")
+                                        
+                                            .foregroundColor(.white)
+                                            .bold()
+                                        
+                                        Image("fi")
+                                        
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                                        
+                                    }
+                                    
+                                    
+                                    
+                                }                             .padding(.trailing ,20)
+                                
+                            }
+                            .frame(width: 350, height: 200)}
+                    TodoList()
+                    }
+                }
+                        
+                        
+                 }
+                
+            
+                
+                .navigationTitle("حفلة التخرج")
+                .navigationBarTitleDisplayMode(.inline)
+                .navigationBarItems(trailing:
+                                        NavigationLink(destination: TodoList(), label: {Image(systemName: "square.and.arrow.down")})
+                    .accentColor(.pk))
+          
+            }
+     
+            
+        }
     }
-}
 
 #Preview {
     ListTask()

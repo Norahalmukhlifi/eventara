@@ -11,7 +11,9 @@ import SwiftUI
 struct eventaraApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+           MainPage()
+          
         }
     }
 }
