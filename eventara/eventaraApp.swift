@@ -12,7 +12,7 @@ struct eventaraApp: App {
     var body: some Scene {
         WindowGroup {
             
-           MainPage()
+           splash()
           
         }
     }

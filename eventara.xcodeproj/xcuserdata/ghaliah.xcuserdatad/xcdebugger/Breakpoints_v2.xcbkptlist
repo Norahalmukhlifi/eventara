@@ -18,6 +18,68 @@
             endingLineNumber = "32"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3D0D0642-B54A-49B3-85DD-B645E2C2BEEF - f6f93c1a1406b4ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, Swift.Optional&lt;SwiftUI.GeometryReader&lt;SwiftUI.ModifiedContent&lt;&lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, eventara.ImageModifier&gt;&gt;&gt;, Swift.Optional&lt;SwiftUI.EmptyView&gt;, eventara.PinCode)&gt; in eventara.Moodboard.body.getter : some"
+                  moduleName = "eventara"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ghaliah/Desktop/eventara/eventara/Moodboard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  uuid = "3D0D0642-B54A-49B3-85DD-B645E2C2BEEF - ca59672b64b28966"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftUI.GeometryProxy) -&gt; SwiftUI.ModifiedContent&lt;&lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, eventara.ImageModifier&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, Swift.Optional&lt;SwiftUI.GeometryReader&lt;SwiftUI.ModifiedContent&lt;&lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, eventara.ImageModifier&gt;&gt;&gt;, Swift.Optional&lt;SwiftUI.EmptyView&gt;, eventara.PinCode)&gt; in eventara.Moodboard.body.getter : some"
+                  moduleName = "eventara"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ghaliah/Desktop/eventara/eventara/Moodboard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "3D0D0642-B54A-49B3-85DD-B645E2C2BEEF - 817cbc075d9f7ff0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, Swift.Optional&lt;SwiftUI.GeometryReader&lt;SwiftUI.ModifiedContent&lt;&lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, eventara.ImageModifier&gt;&gt;&gt;, Swift.Optional&lt;SwiftUI.Divider&gt;, eventara.PinCode)&gt; in eventara.Moodboard.body.getter : some"
+                  moduleName = "eventara"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ghaliah/Desktop/eventara/eventara/Moodboard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "808">
+               </Location>
+               <Location
+                  uuid = "3D0D0642-B54A-49B3-85DD-B645E2C2BEEF - d7acfd1f988859a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftUI.GeometryProxy) -&gt; SwiftUI.ModifiedContent&lt;&lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, eventara.ImageModifier&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, Swift.Optional&lt;SwiftUI.GeometryReader&lt;SwiftUI.ModifiedContent&lt;&lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, eventara.ImageModifier&gt;&gt;&gt;, Swift.Optional&lt;SwiftUI.Divider&gt;, eventara.PinCode)&gt; in eventara.Moodboard.body.getter : some"
+                  moduleName = "eventara"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ghaliah/Desktop/eventara/eventara/Moodboard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

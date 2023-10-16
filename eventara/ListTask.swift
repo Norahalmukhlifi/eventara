@@ -39,13 +39,14 @@ struct ListTask: View {
                                         gradient: Gradient(colors: [Color.card, Color.pk]), startPoint: .leading, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
                                 
                                 VStack(alignment: .trailing){
-                                    Text("مشاركي التخطيط")
+                                    Text("حفلة التخرج")
                                         .font(.title2)
                                         .bold()
                                         .foregroundColor(.white)
                                         .multilineTextAlignment(.trailing)
                                         .frame(maxWidth: .infinity , alignment: .trailing)
-                                    Text("حفلة التخرج")
+                                    
+                                    Text("المشاركين بالتخطيط")
                                         .font(.title3)
                                         .foregroundColor(.white)
                                         .multilineTextAlignment(.trailing)
@@ -54,7 +55,7 @@ struct ListTask: View {
                                     
                                     HStack{
                                         
-                                        Text("6 sep 2023")
+                                        Text("25 Oct 2023")
                                             .foregroundColor(.white)
                                         Image(systemName:"calendar.badge.clock" )
                                         .foregroundColor(.white)}

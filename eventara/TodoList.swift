@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TodoList: View {
     @State private var selectedItems: [String] = []
-        let items = ["كيك", "زينه", "مشروبات", "عبايات تخرج", "حلويات"]
+    let items = ["قاعه","كيك", "ديكور", "مشروبات", "عبايات تخرج", "حلويات","عشاء"]
     var body: some View{
     
     List(items, id: \.self) { item in

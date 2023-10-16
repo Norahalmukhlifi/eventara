@@ -16,11 +16,7 @@ struct FormPage: View {
       @State private var isPressed = false
       
       // Define an array of texts for the buttons
-      let buttonTitles: [String] = [
-          "موالح", "عشاء", "قاعه", "حلويات", "ديكور",
-          "كراسي", "طاولات", "مشروبات", "توزيعات", "عربات أكل",
-          "قهوجيات", " صبابات "
-      ]
+      let buttonTitles: [String] = ["موالح","عبايات تخرج", "عشاء", "قاعه", "حلويات", "ديكور","كراسي", "طاولات", "مشروبات", "توزيعات","كيك","عربات أكل","قهوجيات", " صبابات "]
       
       let columns: [GridItem] = Array(repeating: .init(.flexible()), count: 4)
     var body: some View {
