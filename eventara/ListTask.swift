@@ -93,7 +93,8 @@ struct ListTask: View {
                 .navigationTitle("حفلة التخرج")
                 .navigationBarTitleDisplayMode(.inline)
                 .navigationBarItems(trailing:
-                                        NavigationLink(destination: TodoList(), label: {Image(systemName: "square.and.arrow.down")})
+                                        NavigationLink(destination:                             Moodboard()
+, label: {Image(systemName: "square.and.arrow.down")})
                     .accentColor(.pk))
           
             }
